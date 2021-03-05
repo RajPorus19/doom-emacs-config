@@ -59,3 +59,4 @@
 (package! conda)
 (package! lsp-pyright)
 (package! company-anaconda)
+(package! org-superstar)
