@@ -60,3 +60,4 @@
 (package! lsp-pyright)
 (package! company-anaconda)
 (package! org-superstar)
+(package! telega)
