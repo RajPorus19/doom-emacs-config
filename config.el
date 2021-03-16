@@ -17,6 +17,7 @@
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
 ;;
+;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
@@ -197,3 +198,14 @@
 
 ;; pass
 (setq password-store-password-length '30)
+
+;; java lsp
+(require 'lsp-java)
+(add-hook 'java-mode-hook #'lsp)
+
+;; autopep8
+(require 'py-autopep8)
+(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+
+;;flutter
+(setq flutter-sdk-path "/home/porus/Downloads/fromGit/flutter/")

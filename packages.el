@@ -61,3 +61,6 @@
 (package! company-anaconda)
 (package! org-superstar)
 (package! telega)
+(package! unicode-fonts)
+(package! lsp-java)
+(package! py-autopep8)
